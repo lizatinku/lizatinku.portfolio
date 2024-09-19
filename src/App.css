@@ -1,0 +1,139 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-gradient-to-r {
+  background: linear-gradient(to right, #e94e77, #f57c42, #f4b400);
+}
+
+@media (max-width: 768px) {
+  .min-h-screen {
+    min-height: 75vh;
+  }
+}
+
+p {
+  font-size: 1rem;
+}
+
+.section {
+  background: linear-gradient(to right, #FF5E5B, #FFA64F, #FFD94A); /* Sunset gradient */
+  padding: 2rem;
+  color: #2D2D2D;
+}
+
+.section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #FFFFFF;
+}
+
+.section p {
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.project-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(to right, #FF5E5B, #FFA64F, #FFD94A); /* Sunset gradient */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #2D2D2D; /* Darker text color */
+}
+
+.hero-section .container {
+  max-width: 6xl;
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+}
+
+.hero-section .text-left {
+  text-align: left;
+}
+
+.hero-section .w-full {
+  width: 100%;
+}
+
+.hero-section .lg\\:w-1\\/2 {
+  width: 50%;
+}
+
+.hero-section h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero-section .about-me h1 {
+  font-size: 2xl;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-bottom: 2rem;
+  color: #FFFFFF;
+}
+
+.hero-section .icon-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.icon-container i {
+  font-size: 3rem;
+  transition: color 0.3s ease-in-out;
+  color: #FFFFFF;
+}
+
+.icon-container i:hover {
+  color: #FFD94A;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-section h1 {
+    font-size: 3rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-section .icon-container {
+    justify-content: center;
+  }
+}
