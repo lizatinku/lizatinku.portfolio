@@ -69,7 +69,7 @@ export default function Hero() {
               Hi, I'm Liza, a Computer Engineering Junior at UC Davis with a journey spanning India, the UAE, and the USA. These experiences have given me a rich cultural perspective and a strong ability to connect with people from diverse backgrounds.
             </p>
             <p className="text-lg">
-              I am passionate about full-stack web development and machine learning, where I thrive at the intersection of creativity and technology. Currently, I'm diving into the MERN stack to build dynamic, scalable applications that prioritize both user experience and performance.
+              I am passionate about full-stack development and machine learning, where I thrive at the intersection of creativity and technology. Currently, I'm diving into the MERN stack to build dynamic, scalable applications that prioritize both user experience and performance.
             </p>
             <p className="text-lg">
               I love creating projects that either solve real-world problems or align with my personal passions, making my work both meaningful and impactful. Driven by curiosity and a desire to innovate, I’m eager to apply my skills to build forward-thinking solutions that make a difference.
