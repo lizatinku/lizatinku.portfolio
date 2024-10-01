@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaGithub } from 'react-icons/fa';
 
 export default function ProjectFlightPricePredictor() {
   return (
@@ -29,6 +30,7 @@ export default function ProjectFlightPricePredictor() {
           target="_blank" 
           rel="noreferrer"
         >
+          <FaGithub className="inline-block mr-2" />
           View Project
           <span className="absolute inset-0 bg-orange-600 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-30 blur-sm"></span>
         </a>
