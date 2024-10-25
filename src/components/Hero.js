@@ -53,7 +53,7 @@ export default function Hero() {
               <i className="fab fa-linkedin"></i>
             </a>
             <a 
-              href="https://docs.google.com/document/d/1xJM9n54GP4YEMN_QUHi9SCMmU93a4H4lOPtCZgVuj5k/edit?usp=sharing" 
+              href="https://docs.google.com/document/d/1s4p1DdNPz8nfKpn86VLOeRN1rnNoVjDsF0J-RLE_2Ig/edit?usp=sharing" 
               className="text-white text-3xl hover:text-sunsetPink"
               target="_blank" rel="noreferrer"
             >
