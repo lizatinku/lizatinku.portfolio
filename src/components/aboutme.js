@@ -5,13 +5,12 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 export default function Hero() {
   return (
     <section className="p-4 bg-gradient-to-r from-[#4A2C2A] to-[#CC9966] shadow-md rounded-lg border border-gray-300">
-      {/* Navigation */}
       <div className="w-full z-10 bg-[#CC9966] p-5">
         <nav className="flex justify-end space-x-6 pr-6 text-lg">
           <a href="#about-me" className="text-white hover:text-[#4A2C2A]">ABOUT ME</a>
           <a href="#experience" className="text-white hover:text-[#4A2C2A]">EXPERIENCE</a>
           <a href="#projects" className="text-white hover:text-[#4A2C2A]">PROJECTS</a>
-          <a href="#leadership" className="text-white hover:text-[#4A2C2A]">LEADERSHIP & PUBLIC SPEAKING</a>
+          <a href="#outsidecoding" className="text-white hover:text-[#4A2C2A]">LEADERSHIP & PUBLIC SPEAKING</a>
         </nav>
       </div>
 
