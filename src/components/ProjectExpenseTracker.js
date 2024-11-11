@@ -3,7 +3,7 @@ import { FaGithub } from 'react-icons/fa';
 
 export default function ProjectExpenseTracker() {
   return (
-    <div className="p-4 mb-6 bg-gradient-to-r from-sunsetPink via-sunsetOrange to-sunsetYellow shadow-md rounded-lg border border-gray-300">
+    <div className="p-4 mb-6 bg-gradient-to-r from-[#4A2C2A] to-[#CC9966] shadow-md rounded-lg border border-gray-300">
       <h3 className="text-2xl font-semibold mb-2">Expense Tracker</h3>
       <img src="/pic%20expense%20tracker.png" alt="Expense Tracker" className="mb-4 rounded" />
       <p className="text-lg mb-4">

@@ -3,7 +3,7 @@ import React from 'react';
 export default function Projects() {
   return (
     <div>
-      <section id="public-speaking" className="bg-gradient-to-r from-sunsetRed via-sunsetOrange to-sunsetYellow p-8 text-gray-800">
+      <section id="public-speaking" className="p-4 mb-6 bg-gradient-to-r from-[#4A2C2A] to-[#CC9966] shadow-md rounded-lg border border-gray-300">
         <div className="max-w-6xl mx-auto flex flex-wrap">
           <div className="w-full lg:w-1/2 p-4">
             <h2 className="text-3xl font-bold mb-6">PUBLIC SPEAKING</h2>
@@ -23,7 +23,7 @@ export default function Projects() {
         </div>
       </section>
 
-      <section id="leadership" className="bg-gradient-to-r from-sunsetRed via-sunsetOrange to-sunsetYellow p-8 text-gray-800">
+      <section id="public-speaking" className="p-4 mb-6 bg-gradient-to-r from-[#4A2C2A] to-[#CC9966] shadow-md rounded-lg border border-gray-300">
         <div className="max-w-6xl mx-auto flex flex-wrap">
           <div className="w-full lg:w-1/2 p-4">
             <h2 className="text-3xl font-bold mb-6">LEADERSHIP</h2>

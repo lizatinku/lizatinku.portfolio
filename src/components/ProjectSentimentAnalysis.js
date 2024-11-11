@@ -3,7 +3,7 @@ import { FaGithub } from 'react-icons/fa';
 
 export default function ProjectSentimentAnalysis() {
   return (
-    <div className="p-4 mb-6 bg-gradient-to-r from-sunsetPink via-sunsetOrange to-sunsetYellow shadow-md rounded-lg border border-gray-300">
+    <div className="p-4 mb-6 bg-gradient-to-r from-[#4A2C2A] to-[#CC9966] shadow-md rounded-lg border border-gray-300">
       <h3 className="text-2xl font-semibold mb-2">Twitter Sentiment Analysis</h3>
       <p className="text-lg mb-4">
         This project involves analyzing the sentiment of Twitter tweets using the Sentiment140 dataset. The goal was to understand the emotions and sentiments expressed in tweets and provide insights into public opinions on various topics.
