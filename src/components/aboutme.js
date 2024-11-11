@@ -4,7 +4,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export default function Hero() {
   return (
-    <section className="p-4 mb-2 bg-gradient-to-r from-[#4A2C2A] to-[#CC9966] shadow-md rounded-lg border border-gray-300">
+    <section className="p-4 bg-gradient-to-r from-[#4A2C2A] to-[#CC9966] shadow-md rounded-lg border border-gray-300">
       {/* Navigation */}
       <div className="w-full z-10 bg-[#CC9966] p-5">
         <nav className="flex justify-end space-x-6 pr-6 text-lg">
@@ -15,15 +15,13 @@ export default function Hero() {
         </nav>
       </div>
 
-      {/* Spacer with color */}
       <div className="h-16 bg-gradient-to-r from-[#4A2C2A] to-[#CC9966]"></div>
 
-      {/* Hero Section */}
       <div className="flex flex-col items-center justify-center space-y-4 text-center mt-8">
         <div className="bg-black rounded-lg p-1">
           <img 
             src="/newheadshot.jpg" 
-            alt="Liza pic" 
+            alt="Liza headshot" 
             className="full w-60 h-80 lg:w-72 lg:h-80 object-cover" 
           />
         </div>
@@ -66,10 +64,8 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Spacer with color */}
       <div className="h-40 bg-gradient-to-r from-[#4A2C2A] to-[#CC9966]"></div>
 
-      {/* About Me Section */}
       <div id="about-me" className="w-full max-w-3xl mx-auto text-center mt-16 p-6 text-white leading-relaxed">
         <h2 className="text-3xl font-bold text-[#CC9966] mb-4">ABOUT ME</h2>
         <p className="text-lg mb-4">

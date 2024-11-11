@@ -1,12 +1,14 @@
 import React from 'react';
-import Hero from './components/Hero';
+import AboutMe from './components/aboutme';
+import Experience from './components/experience'
 import Projects from './components/projects'
 import OutsideCoding from './components/outsidecoding'
 
 function App() {
   return (
     <div>
-      <Hero />
+      <AboutMe />
+      <Experience />
       <Projects />
       <OutsideCoding />
     </div>
