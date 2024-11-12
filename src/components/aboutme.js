@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className="p-4 bg-gradient-to-r from-[#4A2C2A] to-[#CC9966] shadow-md rounded-lg border border-gray-300">
       <div className="w-full z-10 bg-[#CC9966] p-5">
-        <nav className="flex justify-end space-x-6 pr-6 text-lg">
+      <nav className="flex justify-between text-xl">
           <a href="#about-me" className="text-white hover:text-[#4A2C2A]">ABOUT ME</a>
           <a href="#experience" className="text-white hover:text-[#4A2C2A]">EXPERIENCE</a>
           <a href="#projects" className="text-white hover:text-[#4A2C2A]">PROJECTS</a>
