@@ -1,44 +1,78 @@
 import React from 'react';
 
-export default function OutsideCoding() {
+export default function LeadershipTimeline() {
   return (
-    <section id="outsidecoding" className="p-4 mb-6 bg-gradient-to-r from-[#4A2C2A] to-[#CC9966] shadow-md rounded-lg border border-gray-300">
-      <div className="max-w-6xl mx-auto flex flex-wrap">
-        {/* Public Speaking Section */}
-        <div className="w-full lg:w-1/2 p-4">
-          <h2 className="text-3xl font-bold mb-6">PUBLIC SPEAKING</h2>
-          <p className="text-lg mb-4">
-            <i>"If you can speak, you can influence. If you can influence, you can change lives."</i>
-          </p>
-          <img src="/publicspeaking.jpg" alt="Public Speaking" className="w-full h-auto mb-4" />
-          <p className="mb-4">
-            I was introduced into the realm of public speaking by my dad. From a young age, I’ve seen how speaking can spark change and make a difference. It’s not just about talking in front of people—it’s about using your voice to inspire, persuade, and connect with others.
-          </p>
-          <ul className="list-disc list-inside mb-8">
-            <li><a href="https://youtu.be/ssm215gXKE8?si=T30Kqsug1uYBb48l&t=4680" className="text-emerald-800 hover:underline" target="_blank" rel="noopener noreferrer">"Is AI helping or hurting healthcare?" - Public Speaking Video 1</a></li>
-            <li><a href="https://drive.google.com/file/d/1xJpyAavWMRyP_c1Vi1HMKsT3s5W4X0ZT/view?usp=sharing" className="text-emerald-800 hover:underline" target="_blank" rel="noopener noreferrer">Public Speaking Video 2</a></li>
-            <li><a href="https://youtu.be/NY3L0amH_qQ?si=DV3nwFWaSq5CpCRv" className="text-emerald-800 hover:underline" target="_blank" rel="noopener noreferrer">"Hope - The Essence of Life" - Public Speaking Video 3</a></li>
-          </ul>
+    <section id="outsidecoding" className="p-8 bg-gradient-to-r from-[#4A2C2A] to-[#CC9966] shadow-md rounded-lg border border-gray-300">
+      <h2 className="text-3xl font-bold mb-8 text-center text-[#0041C2]">LEADERSHIP</h2>
+      <div className="relative w-full max-w-6xl mx-auto">
+        <div className="absolute top-0 bottom-0 left-1/2 w-0.5 bg-[#006E51] transform -translate-x-1/2"></div>
+
+      {/* Vice President of IEEE UC Davis */}
+      <div className="flex items-center justify-between mb-8 w-full">
+        <div className="w-1/2"></div>
+        <div className="w-8 h-8 bg-[#F6D155] border-2 border-[#006E51] rounded-full flex items-center justify-center">
+          <span className="text-[#006E51] text-lg"></span>
+        </div>
+        <div className="w-1/2 pl-8">
+          <div className="bg-[#CC9966] p-6 rounded-l-full shadow-md">
+            <h3 className="text-lg font-bold text-[#006E51]">Vice President of IEEE UC Davis</h3>
+            <p className="text-sm font-bold text-[#006E51] mb-2">June 2024 - Present</p>
+            <p className="text-sm text-gray-800">
+              Guiding a team, managing events, and promoting tech initiatives within the campus community.
+            </p>
+          </div>
+        </div>
+      </div>
+
+        {/* Leadership Certificate Program */}
+        <div className="flex items-center justify-between mb-8 w-full">
+          <div className="w-1/2 text-right pr-8">
+            <div className="bg-[#F6D155] p-6 rounded-r-full shadow-md">
+              <h3 className="text-lg font-bold text-[#006E51]">Leadership Certificate from UC Davis CLL</h3>
+              <p className="text-sm font-bold text-[#006E51] mb-2">Jan 2024 - May 2024</p>
+              <p className="text-sm text-gray-800">
+                The program from UC Davis Centre for Leadership and Learning is called "Cultivating Leaders for Social Change (CLSC)". This transformative experience taught me that true leadership goes beyond tasks—it requires social responsibility and an understanding of societal issues, equipping me to lead with a socially conscious approach.
+              </p>
+            </div>
+          </div>
+          <div className="w-8 h-8 bg-[#F6D155] border-2 border-[#006E51] rounded-full flex items-center justify-center">
+            <span className="text-[#006E51] text-lg"></span>
+          </div>
+          <div className="w-1/2"></div>
         </div>
 
-        {/* Leadership Section */}
-        <div className="w-full lg:w-1/2 p-4">
-          <h2 className="text-3xl font-bold mb-6">LEADERSHIP</h2>
-          <p className="text-lg mb-4">
-            <i>"A good leader knows the way, shows the way, and goes the way."</i>
-          </p>
-          <img src="/leadership.jpg" alt="Leadership pic" className="w-full h-auto mb-4" />
-          <p className="mb-4">
-            Leadership isn't just about being in charge; it's about guiding and inspiring others. It’s often said that with great power comes great responsibility. I believe this is especially true in leadership. It's not just about having authority but using it to make a positive impact. My journey in leadership has been shaped by various roles and experiences.
-          </p>
-          <ul className="list-disc list-inside mb-8">
-            <li>Vice President of IEEE UC Davis chapter</li>
-            <li>Deputy Head Girl of my High School</li>
-            <li>Peer Mentor for First Year Aggie Connections</li>
-          </ul>
-          <p>
-            <a href="/Liza%20CLL%20certificate.jpg" className="text-emerald-800 hover:underline" target="_blank" rel="noopener noreferrer">Certificate from UC Davis Centre for Leadership and Learning</a>
-          </p>
+        {/* Peer Mentor for First Year Aggie Connections */}
+        <div className="flex items-center justify-between mb-8 w-full">
+          <div className="w-1/2"></div>
+          <div className="w-8 h-8 bg-[#CC9966] border-2 border-[#006E51] rounded-full flex items-center justify-center">
+            <span className="text-[#006E51] text-lg"></span>
+          </div>
+          <div className="w-1/2 pl-8">
+            <div className="bg-[#CC9966] p-6 rounded-l-full shadow-md">
+              <h3 className="text-lg font-bold text-[#006E51]">Peer Mentor for First Year Aggie Connections</h3>
+              <p className="text-sm font-bold text-[#006E51] mb-2">June 2023 - Dec 2023</p>
+              <p className="text-sm text-gray-800">
+                Supported and mentored 25 first-year students, helping them adjust to college life and succeed academically.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Deputy Head Girl */}
+        <div className="flex items-center justify-between mb-8 w-full">
+          <div className="w-1/2 text-right pr-8">
+            <div className="bg-[#F6D155] p-6 rounded-r-full shadow-md">
+              <h3 className="text-lg font-bold text-[#006E51]">Deputy Head Girl</h3>
+              <p className="text-sm font-bold text-[#006E51] mb-2">Sept 2020 - June 2021</p>
+              <p className="text-sm text-gray-800">
+                Led the student council, organized events, and represented the student body in school decisions.
+              </p>
+            </div>
+          </div>
+          <div className="w-8 h-8 bg-[#CC9966] border-2 border-[#006E51] rounded-full flex items-center justify-center">
+            <span className="text-[#006E51] text-lg"></span>
+          </div>
+          <div className="w-1/2"></div>
         </div>
       </div>
     </section>

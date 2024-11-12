@@ -10,7 +10,7 @@ export default function Hero() {
           <a href="#about-me" className="text-white hover:text-[#4A2C2A]">ABOUT ME</a>
           <a href="#experience" className="text-white hover:text-[#4A2C2A]">EXPERIENCE</a>
           <a href="#projects" className="text-white hover:text-[#4A2C2A]">PROJECTS</a>
-          <a href="#outsidecoding" className="text-white hover:text-[#4A2C2A]">LEADERSHIP & PUBLIC SPEAKING</a>
+          <a href="#outsidecoding" className="text-white hover:text-[#4A2C2A]">LEADERSHIP</a>
         </nav>
       </div>
 
