@@ -54,7 +54,7 @@ export default function Experience() {
           </TimelineSeparator>
           <TimelineContent sx={{ py: '60px', px: 2 }}> 
             <Typography variant="h6" component="span" sx={{ color: 'white', fontSize: '2rem', fontWeight: 'bold' }}>
-              Undergraduate Researcher in E-search program
+              Undergraduate Researcher
             </Typography>
             <Typography sx={{ color: 'white' }}>In this role, I am researching AI-driven methods to classify cognitive impairment stages and model Alzheimer’s disease progression using the ADNI dataset. I am collaborating with a PhD candidate and fellow UC Davis researchers to improve prediction accuracy and identify critical progression milestones. </Typography>
           </TimelineContent>
@@ -65,7 +65,7 @@ export default function Experience() {
             sx={{ m: 'auto 0', color: 'white', fontSize: '1.5rem', fontWeight: 'bold' }}
             align="left"
           >
-            Sept 2024 - Present
+            Sept 2024 - Dec 2024
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
