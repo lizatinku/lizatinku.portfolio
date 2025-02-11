@@ -6,10 +6,12 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-import SchoolIcon from '@mui/icons-material/School';
 import CodeIcon from '@mui/icons-material/Code';
 import Typography from '@mui/material/Typography';
 import WorkIcon from '@mui/icons-material/Work';
+import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
+import StorageIcon from '@mui/icons-material/Storage';
+import GestureIcon from '@mui/icons-material/Gesture';
 
 export default function Experience() {
   return (
@@ -21,12 +23,34 @@ export default function Experience() {
             sx={{ m: 'auto 0', color: 'white', fontSize: '1.5rem', fontWeight: 'bold' }}
             align="right"
           >
+            Dec 2024 - Present
+          </TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineConnector />
+            <TimelineDot color="primary">
+              <StorageIcon />
+            </TimelineDot>
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent sx={{ py: '30px', px: 2 }}>
+            <Typography variant="h6" component="span" sx={{ color: 'white', fontSize: '2rem', fontWeight: 'bold' }}>
+              Full-stack Developer
+            </Typography>
+            <Typography sx={{ color: 'white' }}>I am developing a responsive web application using the MERN stack (MongoDB, Express.js, React, Node.js) for a landscaping business. I am integrating RESTful APIs for efficient frontend-backend communication and implement JWT-based authentication to enhance security. Additionally, I am designing a user interface with React.js and Tailwind CSS, ensuring a seamless user experience.</Typography>
+          </TimelineContent>
+        </TimelineItem>
+
+        <TimelineItem>
+          <TimelineOppositeContent
+            sx={{ m: 'auto 0', color: 'white', fontSize: '1.5rem', fontWeight: 'bold' }}
+            align="right"
+          >
             Oct 2024 - Present
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
             <TimelineDot color="primary">
-              <CodeIcon />
+              <DeveloperModeIcon />
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
@@ -34,7 +58,7 @@ export default function Experience() {
             <Typography variant="h5" component="span" sx={{ color: 'white', fontSize: '2rem', fontWeight: 'bold' }}>
               Software Engineer at AI Student Collective
             </Typography>
-            <Typography sx={{ color: 'white' }}>In this role, I am developing AI models to translate ASL gestures into spoken language and text using computer vision techniques. I collaborate with a team of engineers to refine the gesture recognition model and design a user-friendly frontend interface with React and Tailwind CSS for improved accessibility. </Typography>
+            <Typography sx={{ color: 'white' }}>Leading frontend development for an AI-powered ASL translation system, ensuring seamless integration with backend models. Designing an intuitive UI with React and Tailwind CSS to enhance accessibility and usability. </Typography>
           </TimelineContent>
         </TimelineItem>
 
@@ -48,7 +72,7 @@ export default function Experience() {
           <TimelineSeparator>
             <TimelineConnector />
             <TimelineDot color="secondary">
-              <SchoolIcon />
+              <GestureIcon />
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
@@ -79,7 +103,7 @@ export default function Experience() {
               Computer Room Consultant at UC Davis
             </Typography>
             <Typography sx={{ color: 'white' }}>
-              In this role, I provide troubleshooting and debugging support for hardware and software issues on Mac and Windows platforms. I assist faculty with software/hardware setup and conduct regular checks to ensure compliance with UC Davis policies.
+              In this role, I provided troubleshooting and debugging support for hardware and software issues on Mac and Windows platforms. I assisted faculty with software/hardware setup and conduct regular checks to ensure compliance with UC Davis policies.
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -102,7 +126,7 @@ export default function Experience() {
             <Typography variant="h6" component="span" sx={{ color: 'white', fontSize: '2rem', fontWeight: 'bold' }}>
               ML Engineer at Google Developer Student Club
             </Typography>
-            <Typography sx={{ color: 'white' }}>In this role, I collaborated with a team of 4 engineers to develop a flight price predictor using a Kaggle dataset, applying machine learning techniques such as data cleaning and model training. I presented the project at the End-of-Year Showcase, demonstrating strong technical and communication skills.</Typography>
+            <Typography sx={{ color: 'white' }}>Collaborated on developing a flight price predictor using a large dataset. Learned the machine learning pipeline through self-study and club workshops, including data cleaning, model training, testing, and performance evaluation. Plotted accuracy metrics and ROC curves to assess model effectiveness.</Typography>
           </TimelineContent>
         </TimelineItem>
 

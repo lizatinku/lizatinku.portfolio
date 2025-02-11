@@ -3,9 +3,9 @@ import React from 'react';
 export default function LeadershipTimeline() {
   return (
     <section id="outsidecoding" className="p-8 bg-gradient-to-r from-[#4A2C2A] to-[#CC9966] shadow-md rounded-lg border border-gray-300">
-      <h2 className="text-3xl font-bold mb-8 text-center text-[#006E51]">LEADERSHIP</h2>
+      <h2 className="text-3xl font-bold mb-8 text-center text-[FFFF00]">LEADERSHIP</h2>
       <div className="relative w-full max-w-6xl mx-auto">
-        <div className="absolute top-0 bottom-0 left-1/2 w-0.5 bg-[#006E51] transform -translate-x-1/2"></div>
+        <div className="absolute top-0 bottom-0 left-1/2 w-1.5 bg-[#006E51] transform -translate-x-1/2"></div>
 
       {/* Vice President of IEEE UC Davis */}
       <div className="flex items-center justify-between mb-8 w-full">

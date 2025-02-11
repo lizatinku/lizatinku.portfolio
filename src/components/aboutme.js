@@ -115,7 +115,7 @@ export default function Hero() {
             <i className="fab fa-linkedin"></i>
           </a>
           <a 
-            href="https://drive.google.com/file/d/1HLIwr96eZOXy0-rfComtNDl7UvptSVQ5/view?usp=sharing" 
+            href="https://drive.google.com/file/d/1BMBNU7m7rLc9NAhk3bI4R79_HA2ifjMV/view?usp=sharing" 
             className="text-3xl hover:text-sunsetPink"
             target="_blank" rel="noreferrer"
           >
@@ -144,14 +144,20 @@ export default function Hero() {
         {/* About Me Section */}
         <div className="md:w-1/2 text-white leading-relaxed font-serif">
           <h2 className="text-3xl font-bold text-[#CC9966] mb-4">ABOUT ME</h2>
-          <p className="text-3xl mb-4">
+          <p className="text-xl mb-4">
             Hi, I'm Liza, a Computer Engineering Junior at UC Davis with a journey spanning India, the UAE, and the USA. These experiences have given me a rich cultural perspective and a strong ability to connect with people from diverse backgrounds.
           </p>
-          <p className="text-3xl mb-4">
-            I am passionate about full-stack development and machine learning, where I thrive at the intersection of creativity and technology.            
+          <p>
+
           </p>
-          <p className="text-3xl mb-4">
-            I love creating projects that either solve real-world problems or align with my personal passions, making my work both meaningful and impactful. Driven by curiosity and a desire to innovate, I’m eager to apply my skills to build forward-thinking solutions that make a difference.
+          <div>
+
+          </div>
+          <p className="text-xl mb-4">
+            I am passionate about full-stack development and  AI/Machine learning, where I thrive at the intersection of creativity and technology.            
+          </p>
+          <p className="text-xl mb-4">
+            I love creating projects that either solve real-world problems or align with my personal passions, making my work both meaningful and impactful.
           </p>
         </div>
       </div>
