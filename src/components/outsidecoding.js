@@ -16,9 +16,9 @@ export default function LeadershipTimeline() {
         <div className="w-1/2 pl-8">
           <div className="bg-[#CC9966] p-6 rounded-l-full shadow-md">
             <h3 className="text-lg font-bold text-[#006E51]">Vice President of IEEE UC Davis</h3>
-            <p className="text-sm font-bold text-[#006E51] mb-2">June 2024 - Present</p>
+            <p className="text-sm font-bold text-[#006E51] mb-2">June 2024 - March 2025</p>
             <p className="text-sm text-gray-800">
-              Guiding a team, managing events, and promoting tech initiatives within the campus community.
+              Guided a team, managed events, and promoted tech initiatives within the campus ECE community.
             </p>
           </div>
         </div>

@@ -23,7 +23,7 @@ export default function Experience() {
             sx={{ m: 'auto 0', color: 'white', fontSize: '1.5rem', fontWeight: 'bold' }}
             align="right"
           >
-            Dec 2024 - Present
+            Dec 2024 - March 2025
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
@@ -36,7 +36,7 @@ export default function Experience() {
             <Typography variant="h6" component="span" sx={{ color: 'white', fontSize: '2rem', fontWeight: 'bold' }}>
               Full-stack Developer
             </Typography>
-            <Typography sx={{ color: 'white' }}>I am developing a responsive web application using the MERN stack (MongoDB, Express.js, React, Node.js) for a landscaping business. I am integrating RESTful APIs for efficient frontend-backend communication and implement JWT-based authentication to enhance security. Additionally, I am designing a user interface with React.js and Tailwind CSS, ensuring a seamless user experience.</Typography>
+            <Typography sx={{ color: 'white' }}>I developed a responsive web application using the MERN stack for a landscaping business. I integrated RESTful APIs for efficient frontend-backend communication and implement JWT-based authentication to enhance security. Additionally, I designed a user interface with React.js and Tailwind CSS, ensuring a seamless user experience.</Typography>
           </TimelineContent>
         </TimelineItem>
 
