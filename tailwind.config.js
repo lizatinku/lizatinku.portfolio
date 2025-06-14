@@ -13,8 +13,20 @@ module.exports = {
         duskPurple: '#6D28D9',
       },
       boxShadow: {
-        glow: '0 0 10px rgba(255, 182, 193, 0.8)', // Example color
+        glow: '0 0 10px rgba(255, 182, 193, 0.8)', // pink glow
       },
+      dropShadow: {
+        glow: '0 0 8px rgba(59,130,246,0.75)', // blue glow for icons
+      },
+      keyframes: {
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-6px)' },
+        },
+      },
+      animation: {
+        float: 'float 4s ease-in-out infinite',
+      }
     },
   },
   plugins: [],
