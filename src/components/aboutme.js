@@ -11,7 +11,6 @@ export default function Hero() {
 
   return (
     <section className="relative bg-black text-white overflow-hidden">
-      {/* PARTICLES BACKGROUND */}
       <Particles
         id="tsparticles"
         init={particlesInit}
@@ -31,7 +30,7 @@ export default function Hero() {
       <div className="flex flex-col items-center justify-center text-center min-h-screen space-y-6 px-4">
         <h1 className="text-6xl md:text-7xl lg:text-8xl font-extrabold leading-tight flex items-center justify-center gap-3">
           <span className="text-gray-400 text-2xl md:text-3xl lg:text-4xl">Hi, I'm</span>
-          <span className="text-pink-400 text-7xl lg:text-6xl font-bold">|</span>
+          <span className="text-pink-400 text-7xl lg:text-7xl font-bold">|</span>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-indigo-500 tracking-widest">
             LIZA TINKU
           </span>

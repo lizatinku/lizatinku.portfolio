@@ -2,78 +2,80 @@ import React from 'react';
 
 export default function LeadershipTimeline() {
   return (
-    <section id="outsidecoding" className="p-8 bg-gradient-to-r from-[#4A2C2A] to-[#CC9966] shadow-md rounded-lg border border-gray-300">
-      <h2 className="text-3xl font-bold mb-8 text-center text-[FFFF00]">LEADERSHIP</h2>
-      <div className="relative w-full max-w-6xl mx-auto">
-        <div className="absolute top-0 bottom-0 left-1/2 w-1.5 bg-[#006E51] transform -translate-x-1/2"></div>
+    <section id="outsidecoding" className="p-8 bg-black shadow-xl rounded-lg border border-[#222]">
+      <h2 className="text-4xl font-bold mb-12 text-center text-green-600">
+        LEADERSHIP
+      </h2>
 
-      {/* Vice President of IEEE UC Davis */}
-      <div className="flex items-center justify-between mb-8 w-full">
-        <div className="w-1/2"></div>
-        <div className="w-8 h-8 bg-[#F6D155] border-2 border-[#006E51] rounded-full flex items-center justify-center">
-          <span className="text-[#006E51] text-lg"></span>
-        </div>
-        <div className="w-1/2 pl-8">
-          <div className="bg-[#CC9966] p-6 rounded-l-full shadow-md">
-            <h3 className="text-lg font-bold text-[#006E51]">Vice President of IEEE UC Davis</h3>
-            <p className="text-sm font-bold text-[#006E51] mb-2">June 2024 - March 2025</p>
-            <p className="text-sm text-gray-800">
-              Guided a team, managed events, and promoted tech initiatives within the campus ECE community.
-            </p>
-          </div>
-        </div>
-      </div>
+      <div className="relative w-full max-w-5xl mx-auto">
+        {/* Central vertical line */}
+        <div className="absolute top-0 bottom-0 left-1/2 w-[2px] bg-green-600 transform -translate-x-1/2"></div>
 
-        {/* Leadership Certificate Program */}
-        <div className="flex items-center justify-between mb-8 w-full">
-          <div className="w-1/2 text-right pr-4">
-            <div className="bg-[#CC9966] p-8 rounded-r-full shadow-md">
-              <h3 className="text-lg font-bold text-[#006E51]">Leadership Certificate from UC Davis CLL</h3>
-              <p className="text-sm font-bold text-[#006E51] mb-2">Jan 2024 - May 2024</p>
-              <p className="text-sm text-gray-800">
-                This transformative experience from UC Davis Centre for Leadership and Learning taught me that true leadership goes beyond tasks—it requires social responsibility and an understanding of societal issues, equipping me to lead with a socially conscious approach.
-              </p>
-            </div>
+        {[
+          {
+            side: "right",
+            title: "Vice President of IEEE UC Davis",
+            date: "June 2024 - March 2025",
+            description:
+              "Guided a team of 10 members, managed events, and promoted tech initiatives to within the campus ECE community.",
+          },
+          {
+            side: "left",
+            title: "Technical Project Manager",
+            date: "April 2025 - May 2025",
+            description:
+              "Led a group of 5 students to build an ML model for a F1 race predictor in a 6 week sprint.",
+          },
+          {
+            side: "right",
+            title: "Leadership Certificate from UC Davis CLL",
+            date: "Jan 2024 - May 2024",
+            description:
+              "This transformative experience taught me that true leadership requires social responsibility and empathy, not just delegation.",
+          },
+          {
+            side: "left",
+            title: "Peer Mentor for First Year Aggie Connections",
+            date: "June 2023 - Dec 2023",
+            description:
+              "Supported and mentored 25 first-year students, helping them adjust to college life and succeed academically.",
+          },
+          {
+            side: "right",
+            title: "Deputy Head Girl, GEMS Westminster School",
+            date: "Sept 2020 - June 2021",
+            description:
+              "Selected to lead 400+ students. Organized school-wide events and acted as liaison between administration and student body.",
+          },
+        ].map((entry, i) => (
+          <div key={i} className="flex items-center justify-between mb-12 w-full relative">
+            {entry.side === "left" ? (
+              <>
+                <div className="w-1/2 text-right pr-6">
+                  <div className="bg-[#111827] p-4 rounded-r-3xl shadow-md border border-gray-600 max-w-sm ml-auto">
+                    <h3 className="text-base font-bold text-white">{entry.title}</h3>
+                    <p className="text-xs font-semibold text-pink-400 mb-1">{entry.date}</p>
+                    <p className="text-sm text-gray-300">{entry.description}</p>
+                  </div>
+                </div>
+                <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-green-500 rounded-full z-10 shadow-md"></div>
+                <div className="w-1/2"></div>
+              </>
+            ) : (
+              <>
+                <div className="w-1/2"></div>
+                <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-green-500 rounded-full z-10 shadow-md"></div>
+                <div className="w-1/2 pl-6">
+                  <div className="bg-[#111827] p-4 rounded-l-3xl shadow-md border border-gray-600 max-w-sm">
+                    <h3 className="text-base font-bold text-white">{entry.title}</h3>
+                    <p className="text-xs font-semibold text-pink-400 mb-1">{entry.date}</p>
+                    <p className="text-sm text-gray-300">{entry.description}</p>
+                  </div>
+                </div>
+              </>
+            )}
           </div>
-          <div className="w-8 h-8 bg-[#F6D155] border-2 border-[#006E51] rounded-full flex items-center justify-center">
-            <span className="text-[#006E51] text-lg"></span>
-          </div>
-          <div className="w-1/2"></div>
-        </div>
-
-        {/* Peer Mentor for First Year Aggie Connections */}
-        <div className="flex items-center justify-between mb-8 w-full">
-          <div className="w-1/2"></div>
-          <div className="w-8 h-8 bg-[#F6D155] border-2 border-[#006E51] rounded-full flex items-center justify-center">
-            <span className="text-[#006E51] text-lg"></span>
-          </div>
-          <div className="w-1/2 pl-8">
-            <div className="bg-[#CC9966] p-6 rounded-l-full shadow-md">
-              <h3 className="text-lg font-bold text-[#006E51]">Peer Mentor for First Year Aggie Connections</h3>
-              <p className="text-sm font-bold text-[#006E51] mb-2">June 2023 - Dec 2023</p>
-              <p className="text-sm text-gray-800">
-                Supported and mentored 25 first-year students, helping them adjust to college life and succeed academically.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Deputy Head Girl */}
-        <div className="flex items-center justify-between mb-8 w-full">
-          <div className="w-1/2 text-right pr-8">
-            <div className="bg-[#CC9966] p-6 rounded-r-full shadow-md">
-              <h3 className="text-lg font-bold text-[#006E51]">Deputy Head Girl, GEMS Westminster School</h3>
-              <p className="text-sm font-bold text-[#006E51] mb-2">Sept 2020 - June 2021</p>
-              <p className="text-sm text-gray-800">
-                Led the student council, organized events, and represented the student body in school decisions.
-              </p>
-            </div>
-          </div>
-          <div className="w-8 h-8 bg-[#F6D155] border-2 border-[#006E51] rounded-full flex items-center justify-center">
-            <span className="text-[#006E51] text-lg"></span>
-          </div>
-          <div className="w-1/2"></div>
-        </div>
+        ))}
       </div>
     </section>
   );
