@@ -44,7 +44,6 @@ export default function Hero() {
           />
         </h2>
 
-        {/* CTA BUTTONS */}
         <div className="flex flex-wrap justify-center gap-4 mt-4">
           <a
             href="#projects"
@@ -60,6 +59,73 @@ export default function Hero() {
           </a>
         </div>
       </div>
+
+      {/* ABOUT ME SECTION */}
+      <div className="flex flex-col lg:flex-row items-center justify-center mt-20 mb-32 gap-10 px-6 max-w-6xl mx-auto text-center lg:text-left">
+        <img
+          src="/newheadshot.jpg" 
+          alt="Liza Tinku"
+          className="w-60 h-60 object-cover rounded-2xl grayscale hover:grayscale-0 transition duration-300"
+        />
+
+        <div className="max-w-2xl space-y-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-white">
+            I'm <span className="text-pink-400">Liza Tinku</span>, a Full Stack Developer building scalable digital tools for impact.
+          </h2>
+
+          <p className="text-gray-300">
+            I’m currently pursuing BSc Computer Engineering at UC Davis. I am passionate about full stack development, production engineering and AI/ML.  I love turning fuzzy ideas into powerful digital experiences.
+          </p>
+
+          <p className="text-gray-300">
+            In summer 2025, I was selected for the Meta-MLH Production Engineering Fellowship (2.5% acceptance rate), and interned at a med-tech startup building tools for patients and providers using Prisma ORM, S3, and Cognito.
+          </p>
+
+          <p className="text-gray-300">
+            I love tinkering with React, React Native, Python (Flask/FastAPI), Firebase/Supabase. Outside of coding, I love running, exploring cafes, cooking and hanging out with friends.
+          </p>
+
+          <div className="flex justify-center gap-6 pt-2">
+            <a
+              href="https://www.linkedin.com/in/lizatinkujose"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative flex flex-col items-center"
+            >
+              <i className="fab fa-linkedin text-white text-2xl group-hover:text-blue-400 transition"></i>
+              <span className="absolute top-8 mt-2 px-2 py-1 text-sm rounded bg-blue-600 text-white opacity-0 group-hover:opacity-100 transition duration-300">
+                LinkedIn
+              </span>
+            </a>
+
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=lizatj2017@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative flex flex-col items-center"
+            >
+              <i className="fas fa-envelope text-white text-2xl group-hover:text-red-400 transition"></i>
+              <span className="absolute top-8 mt-2 px-2 py-1 text-sm rounded bg-red-600 text-white opacity-0 group-hover:opacity-100 transition duration-300">
+                Email
+              </span>
+            </a>
+
+            <a
+              href="https://github.com/lizatinku"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative flex flex-col items-center"
+            >
+              <i className="fab fa-github text-white text-2xl group-hover:text-gray-300 transition"></i>
+              <span className="absolute top-8 mt-2 px-2 py-1 text-sm rounded bg-gray-700 text-white opacity-0 group-hover:opacity-100 transition duration-300">
+                GitHub
+              </span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
 
   {/* TECH STACK */}
   <div className="w-full max-w-6xl mx-auto mt-32 px-6 text-white font-light text-center">
