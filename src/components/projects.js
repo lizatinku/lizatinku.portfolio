@@ -1,81 +1,77 @@
-import React from 'react';
 import { FaGithub } from 'react-icons/fa';
-import * as Tooltip from '@radix-ui/react-tooltip';
 
 const projects = [
   {
-    title: "Expense Tracker",
-    description: "Managing money can be a hassle, especially for college students juggling multiple responsibilities. This app aims to simplify financial management, offering valuable insights and a user-friendly experience to make managing your money easier.",
-    techStack: "HTML, CSS, JavaScript, React.js",
-    imgSrc: "/pic%20expense%20tracker.png",
-    githubLink: "https://github.com/lizatinku/expense-tracker",
+    title: "PartyPal – HackDavis 2025",
+    description: "Live, map-based mobile app that helps students safely navigate their social lives with real-time data on events, ERs, Narcan pickup, and SafeRide services.",
+    techStack: "React Native, Supabase, Google Maps API, Expo, Tailwind CSS",
+    imgSrc: "/partypal.png",
+    githubLink: "https://github.com/lizatinku/HackDavis25-PartyPal.git",
   },
   {
-    title: "Flight Price Predictor",
-    description: "This project aims to predict flight prices in India using logistic regression on a dataset sourced from Kaggle, originally gathered from the 'Ease My Trip' website.",
-    techStack: "Python, Pandas, Numpy, Seaborn, Matplotlib",
-    imgSrc: "/airline.jpg",
-    githubLink: "https://github.com/lizatinku/ML-Flight-price-predictor.git",
+    title: "PhishFilter – UC Berkeley AI Hackathon",
+    description: "Full-stack AI app to detect phishing emails and scam calls in real-time.",
+    techStack: "Claude Opus 4, FastAPI, React Native, Vapi, Tailwind CSS",
+    imgSrc: "/phishfilter.png",
+    githubLink: "https://github.com/lizatinku/BerkAI25-PhishFilter.git",
   },
   {
     title: "Indian Food Trivia",
-    description: "Indian Food fills both my stomach and my heart. The 'Indian Food Trivia' project is designed to celebrate the vibrant and diverse flavors of Indian food through an engaging and interactive quiz format.",
-    techStack: "HTML, TailwindCSS, JavaScript, Typescript, Next.js",
+    description: "A fun, interactive quiz that celebrates the vibrant diversity of Indian cuisine.",
+    techStack: "Next.js, Supabase, TypeScript, Tailwind CSS",
     imgSrc: "/pic%20food%20trivia.png",
     githubLink: "https://github.com/lizatinku/food-trivia",
   },
-  {
-    title: "Twitter Sentiment Analysis",
-    description: "This project involves analyzing the sentiment of Twitter tweets using the Sentiment140 dataset. The goal was to understand the emotions and sentiments expressed in tweets and provide insights into public opinions on various topics.",
-    techStack: "Python, Pandas, Numpy, Seaborn, Matplotlib",
-    imgSrc: "/sentiments.jpg",
-    githubLink: "https://github.com/lizatinku/Twitter-Sentiment-Analysis.git",
+    {
+    title: "F1 Race Predictor",
+    description: "F1 Race Predictor uses machine learning to forecast Formula 1 race outcomes based on qualifying times, track data, and past performance.",
+    techStack: "FastF1 API, React, Flask",
+    imgSrc: "/f1.png",
+    githubLink: "https://github.com/lizatinku/AISCSpring25-F1predictor.git",
   },
 ];
 
 export default function Projects() {
   return (
-  <section id="projects" className="flex flex-wrap justify-center bg-gradient-to-r from-[#4A2C2A] to-[#CC9966] p-8 space-y-6">
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-      {projects.map((project, index) => (
-        <div key={index} className="p-6 bg-blue-900 text-gray-100 shadow-lg rounded-lg border border-blue-700 transform transition hover:scale-105 hover:shadow-xl">
-          <div className="relative overflow-hidden rounded-lg h-48 mb-4 border border-blue-700">
-            <img
-              src={project.imgSrc}
-              alt={project.title}
-              className="w-full h-full object-cover"
-            />
-          </div>
+    <section id="projects" className="bg-black py-20 px-6 text-white">
+      <div className="max-w-6xl mx-auto text-center mb-12">
+        <h2 className="text-4xl md:text-5xl font-extrabold">Projects</h2>
+        <p className="text-gray-400 mt-4">Some of the things I’ve built.</p>
+      </div>
 
-          <div className="p-4">
-            <h3 className="text-2xl font-extrabold text-gray-100 mb-2">{project.title}</h3>
-            <p className="text-gray-200 mb-4">{project.description}</p>
-            <p className="text-gray-300 mb-4">
-              <strong>Tech Stack:</strong> {project.techStack}
-            </p>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto">
+        {projects.map((project, index) => (
+          <div
+            key={index}
+            className="bg-[#111111] border border-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-pink-500/30 transition duration-300"
+          >
+            <div className="h-56 overflow-hidden">
+              <img
+                src={project.imgSrc}
+                alt={project.title}
+                className="w-full h-full object-contain p-4 transition duration-300"
+              />
+            </div>
+            <div className="p-6 space-y-3">
+              <h3 className="text-2xl font-bold">{project.title}</h3>
+              <p className="text-gray-300 text-sm">{project.description}</p>
+              <p className="text-gray-500 text-sm">
+                <span className="font-semibold text-gray-400">Tech Stack:</span> {project.techStack}
+              </p>
 
-            <Tooltip.Provider>
-              <Tooltip.Root>
-                <Tooltip.Trigger asChild>
-                  <a
-                    href={project.githubLink}
-                    className="flex items-center justify-center text-blue-200 hover:text-blue-400 transition duration-300 ease-in-out text-lg rounded-full px-4 py-2 border border-blue-700"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaGithub className="mr-2 text-2xl" />
-                    View on GitHub
-                  </a>
-                </Tooltip.Trigger>
-                <Tooltip.Content className="text-white bg-gray-800 px-2 py-1 rounded shadow-lg">
-                  Open GitHub Repository
-                </Tooltip.Content>
-              </Tooltip.Root>
-            </Tooltip.Provider>
+              <a
+                href={project.githubLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-sm px-4 py-2 mt-2 border border-gray-700 rounded-full hover:bg-white hover:text-black transition"
+              >
+                <FaGithub className="text-lg" />
+                View on GitHub
+              </a>
+            </div>
           </div>
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
     </section>
   );
 }
