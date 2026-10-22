@@ -13,6 +13,13 @@ export default function LeadershipTimeline() {
 
         {[
           {
+            side: "left",
+            title: "Stanford Code in Place Section Leader",
+            date: "Oct 2026 - Nov 2026",
+            description:
+              "Guided a global cohort of students through the fundamentals of Python, utilizing Stanford’s CS106A curriculum.",
+          },
+          {
             side: "right",
             title: "Vice President of IEEE UC Davis",
             date: "June 2024 - March 2025",

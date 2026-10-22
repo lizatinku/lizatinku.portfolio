@@ -12,18 +12,23 @@ import Typography from '@mui/material/Typography';
 export default function Experience() {
   const experiences = [
     {
-      title: "Production Engineering/SRE Fellow",
-      date: "June 2025 – Present",
+      title: "Production Engineering Fellow (2.5% acceptance rate)",
+      date: "June – Sept 2025",
       ongoing: true,
       description:
-        "Selected for the Meta and MLH Fellowship which has a 2.5% acceptance rate. Working on impactful projects under the guidance of Meta mentors.",
+        "Learned production infrastructure fundamentals and built Flask modules using Docker, NGINX, and DigitalOcean, with Grafana monitoring and unit testing.",
+    },
+    {
+      title: "SWE Intern at Value Health",
+      date: "June - Aug 2025",
+      description:
+        "Built full-stack components in Agile sprints for use by patients and healthcare providers.",
     },
     {
       title: "Undergraduate Researcher",
-      date: "Sept 2024 – Present",
-      ongoing: true,
+      date: "Sept 2024 – Aug 2025",
       description:
-        "Building ML models to predict Alzheimer's progression. Presented work at Northern California Undergraduate Research Symposium at SJSU.",
+        "Built ML models with Python & Pytorch to predict Alzheimer's progression. Presented work at NorCal Undergraduate Research Symposium at SJSU.",
     },
     {
       title: "Full-stack Developer(Freelance)",
@@ -35,7 +40,7 @@ export default function Experience() {
       title: "SWE at AI Student Collective(AISC)",
       date: "Oct 2024 – May 2025",
       description:
-        "Led frontend development for an AI-powered ASL translator. Designed UI in Figma and built using Next.js and Tailwind CSS.",
+        "Led frontend development for an AI-powered ASL translator. Designed UI in Figma and built frontend using Next.js and Tailwind CSS.",
     },
 
     {

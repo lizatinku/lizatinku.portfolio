@@ -74,7 +74,7 @@ export default function Hero() {
           </h2>
 
           <p className="text-gray-300">
-            I’m currently pursuing BSc Computer Engineering at UC Davis. I am passionate about full stack development, production engineering and AI/ML.  I love turning fuzzy ideas into powerful digital experiences.
+            I have a B.S. in Computer Engineering from UC Davis. I am passionate about full stack development, production engineering and AI/ML.  I love turning fuzzy ideas into powerful digital experiences.
           </p>
 
           <p className="text-gray-300">
@@ -139,23 +139,23 @@ export default function Hero() {
         items: [
           { name: "React.js", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
           { name: "Next.js", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
-          { name: "JavaScript", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+          { name: "JavaScript", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/javascript/javascript-original.svg" },
           { name: "TypeScript", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
           { name: "HTML5", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
           { name: "CSS3", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
-          { name: "Tailwind CSS", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" },
+          { name: "Tailwind CSS", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/tailwindcss/tailwindcss-original.svg" },
         ]
       },
       {
         title: "Backend & Database",
         items: [
           { name: "SQL", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-          { name: "Flask", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" },
-          { name: "Express.js", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
+          { name: "Flask", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/flask/flask-original.svg", className: "brightness-0 invert" },
+          { name: "Express.js", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/express/express-original.svg", className: "brightness-0 invert" },
           { name: "Node.js", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
           { name: "MongoDB", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
           { name: "Firebase", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" },
-          { name: "Supabase", src: "https://seeklogo.com/images/S/supabase-logo-DCC676FFE2-seeklogo.com.png" },
+          { name: "Supabase", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/supabase/supabase-original.svg" },
         ]
       },
       {
@@ -178,7 +178,7 @@ export default function Hero() {
         <div className="flex flex-wrap justify-center gap-6">
           {section.items.map((tech) => (
             <div key={tech.name} className="group flex flex-col items-center hover:scale-110 transition-transform duration-200 w-24">
-              <img src={tech.src} alt={tech.name} className="w-9 h-9 object-contain" />
+              <img src={tech.src} alt={tech.name} className={`w-9 h-9 object-contain ${tech.className || ""}`} />
               <span className="mt-2 text-sm text-gray-300 font-medium group-hover:text-white text-center">
                 {tech.name}
               </span>
